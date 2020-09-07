@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+
+
+  "scripts": {
+    "start": "node index.js",
+    "devstart": "nodemon index.js"
+  },
+  "commentsConfig" : {
+    "1" : "scripts: {  // Список скриптов для выполнения через/ДЛЯ ...",
+    "2" : "start: node index.js, // служит для запуска на проде",
+    "3" : "devstart: nodemon index.js // служит для запуска при разработке\n",
+    "4" : "// запуск:  npm run devstart"
+  },
+
+
+  "keywords": [],
+  "author": "Svetlov ",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
